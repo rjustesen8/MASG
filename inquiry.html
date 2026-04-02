@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inquiry | Midwest Athletic Strategy Group</title>
+  <meta name="description" content="Request a program review by sharing your school context and athletics planning needs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html" class="brand" aria-label="Midwest Athletic Strategy Group home">
+        <img src="assets/logo.png" alt="Midwest Athletic Strategy Group logo" class="brand-logo">
+        <div class="brand-copy">
+          <strong>Midwest Athletic Strategy Group</strong>
+          <span>Disciplined strategy with athletic energy</span>
+        </div>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        
+        <a href="index.html" class="">Home</a>
+        
+        <a href="services.html" class="">Services</a>
+        
+        <a href="sample-report.html" class="">Sample Report</a>
+        
+        <a href="about.html" class="">About</a>
+        
+        <a href="inquiry.html" class="active">Inquiry</a>
+        
+      </nav>
+      <a href="inquiry.html" class="btn btn-primary desktop-cta">Request a Program Review</a>
+    </div>
+  </header>
+
+  
+    
+  
+
+  
+<section class="page-hero">
+  <div class="container narrow-section">
+    <span class="eyebrow">Inquiry</span>
+    <h1>Request a program review.</h1>
+    <p class="lead">
+      If your school wants clearer athletics planning, stronger visibility into program pressure, or a more disciplined way to frame athletics decisions, use the inquiry form below to share the context.
+    </p>
+  </div>
+</section>
+
+<section class="section section-white">
+  <div class="container contact-grid">
+    <div>
+      <span class="section-label crimson">How the inquiry works</span>
+      <h2>Start with the school, the role, and the planning question.</h2>
+      <p>
+        MASG is built to begin with a more disciplined written intake. The goal is to understand the school context, what you are hoping to better understand, and whether a smaller snapshot review or broader program review makes the most sense.
+      </p>
+      <div class="info-card">
+        <span class="small-label gold">For now, this is the only contact path</span>
+        <ul class="clean-list compact-list">
+          <li>No phone field is required.</li>
+          <li>The primary next step is a written inquiry, not a call request.</li>
+          <li>Form submissions are saved locally in this project for now.</li>
+        </ul>
+      </div>
+      <p class="privacy-note">
+        By submitting this form, you are only sharing information for review and follow-up related to this inquiry.
+      </p>
+    </div>
+
+    <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-note').style.display='block';" novalidate>
+      <div class="form-grid">
+        <div class="field">
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" value="" required>
+        </div>
+        <div class="field">
+          <label for="school">School or organization *</label>
+          <input id="school" name="school" type="text" value="" required>
+        </div>
+        <div class="field">
+          <label for="role">Role *</label>
+          <input id="role" name="role" type="text" value="" required>
+        </div>
+        <div class="field">
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" value="" required>
+        </div>
+        <div class="field full-width">
+          <label for="district_size">School or district context</label>
+          <input id="district_size" name="district_size" type="text" value="" placeholder="Example: rural 2A high school, mid-sized district, suburban public high school">
+        </div>
+        <div class="field full-width">
+          <label for="goals">What are you hoping to better understand about your athletic program? *</label>
+          <textarea id="goals" name="goals" rows="5" required></textarea>
+        </div>
+        <div class="field full-width">
+          <label for="challenges">What challenges are most important right now?</label>
+          <textarea id="challenges" name="challenges" rows="4"></textarea>
+        </div>
+      </div>
+      <p id="form-note" class="privacy-note" style="display:none; margin-bottom:1rem;">This HTML version is ready for static hosting, but the form is not connected yet. For now, email <a href="mailto:midwestathleticstrategy@gmail.com">midwestathleticstrategy@gmail.com</a> or connect this form to a static form service before launch.</p>
+      <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+    </form>
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Midwest Athletic Strategy Group</h3>
+        <p>
+          A focused, school-facing consulting brand built to help public high schools improve athletics visibility, decision-making, and planning structure.
+        </p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-list">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="sample-report.html">Sample Report</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="inquiry.html">Inquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Primary next step</h4>
+        <p>
+          Use the inquiry page to share your school, your role, and the athletics planning question you are trying to understand more clearly.
+        </p>
+        <a href="inquiry.html" class="text-link">Request a Program Review</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Midwest Athletic Strategy Group</span>
+      <span>Midwest-wide positioning built for public high schools</span>
+    </div>
+  </footer>
+</body>
+</html>
